@@ -15,10 +15,7 @@ A Python script for inspecting prims in a USD scene within Isaac Sim, extracting
 ## Requirements
 
 - NVIDIA Isaac Sim (tested with version 4.0.0)
-- Python 3.x
-- Required Python packages (included with Isaac Sim):
-  - omni.isaac.core
-  - pxr
+
 
 ## Usage
 
@@ -29,4 +26,4 @@ A Python script for inspecting prims in a USD scene within Isaac Sim, extracting
 2. Run the script within Isaac Sim's Python environment:
 
 ```bash
-python prim_inspector.py
+./python.sh gt-sg.py
